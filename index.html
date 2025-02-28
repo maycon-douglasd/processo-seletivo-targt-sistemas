@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./src/css/estilos.css"/>
+    <title>Desafio Técnico</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <h1>Desafios Técnicos</h1>
+            
+            <div class="section">
+                <h3>1) Cálculo da Soma</h3>
+
+                <button onclick="calcularSoma()">Calcular Soma</button>
+
+                <pre id="resultadoSoma"></pre>
+            </div>
+    
+            <div class="section">
+                <h3>2) Verificar Número na Sequência de Fibonacci</h3>
+
+                <input type="number" id="numeroFibonacci" placeholder="Digite um número">
+
+                <button onclick="verificarFibonacci()">Verificar</button>
+
+                <pre id="resultadoFibonacci"></pre>
+            </div>
+    
+            <div class="section">
+                <h3>3) Análise de Faturamento</h3>
+
+                <input type="file" id="fileInput" accept=".xml, .json, .csv">
+
+                <button onclick="analisarFaturamento()">Analisar</button>
+
+                <pre id="resultadoFaturamento"></pre>
+            </div>
+    
+            <div class="section">
+                <h3>4) Percentual de Faturamento por Estado</h3>
+
+                <button onclick="calcularPercentual()">Calcular</button>
+
+                <pre id="resultadoPercentual"></pre>
+            </div>
+    
+            <div class="section">
+                <h3>5) Inverter String</h3>
+
+                <input type="text" id="textoInvertido" placeholder="Digite um texto">
+
+                <button onclick="inverterString()">Inverter</button>
+
+                <pre id="resultadoInversao"></pre>
+            </div>
+    </main>
+</body>
+    <script src="./js/index.js"></script>
+</html>
